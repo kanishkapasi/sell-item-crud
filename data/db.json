@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "itemName": "laptop",
+      "itemBrand": "asus",
+      "itemCondition": "100",
+      "itemQuantity": "5",
+      "itemPrice": "100000",
+      "id": 1
+    },
+    {
+      "itemName": "TV",
+      "itemBrand": "Samsung",
+      "itemCondition": "99",
+      "itemQuantity": "10",
+      "itemPrice": "50000",
+      "id": 2
+    },
+    {
+      "itemName": "Rice Cocker",
+      "itemBrand": "Tenis",
+      "itemCondition": "99",
+      "itemQuantity": "20",
+      "itemPrice": "15000",
+      "id": 3
+    },
+    {
+      "itemName": "Plug Point",
+      "itemBrand": "B Center",
+      "itemCondition": "100",
+      "itemQuantity": "100",
+      "itemPrice": "5000",
+      "id": 4
+    }
+  ]
+}

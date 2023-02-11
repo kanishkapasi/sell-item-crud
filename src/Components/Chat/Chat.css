@@ -1,0 +1,19 @@
+.chatContainer{
+    width: 85%;
+    padding-top: 120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.chatContainer button{
+    color: black;
+    background-color: rgb(234, 255, 0);
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}

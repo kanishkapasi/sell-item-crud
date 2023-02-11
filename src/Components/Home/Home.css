@@ -1,0 +1,73 @@
+.homeContainer{
+   width: 100%;
+}
+
+.homeContainer .lowContainer{
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.homeContainer .lowContainer .upper{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.homeContainer .lowContainer .upper h1{
+    font-size: 50px;
+}
+
+.homeContainer .lowContainer .upper p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 300px;
+}
+
+.homeContainer .lowContainer .upper button{
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(226, 75, 75);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.homeContainer .lowContainer .upper button .a{
+    color: white;
+    font-size: 18px;
+}
+
+.homeContainer .lowContainer .upper button:hover{
+    transform: scaleX(1.15) scaleY(1.15);
+    box-shadow: 0px 10px 10px rgb(226, 75, 75);
+}
+
+.homeContainer .icon{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    margin-right: 30px;
+}
+
+.homeContainer .icon .msg{
+    width: 60px;
+    height: 60px;
+    color: black;
+    transition: all 0.5s;
+}
+
+.homeContainer .icon .msg:hover{
+    transform: scaleX(1.15) scaleY(1.15);
+}
+
+
+@media screen and (max-width:377px){
+    .homeContainer .lowContainer .upper h1{
+        font-size: 35px;
+    }
+    .homeContainer .lowContainer .upper p{
+        font-size: 16px;
+    }
+}
